@@ -36,7 +36,7 @@ Encore
     .enableVersioning()
     .configureBabelPresetEnv((config) => {
         config.useBuiltIns = 'usage';
-        config.corejs = '3.38';
+        config.corejs = '3.49';
     })
     .copyFiles({
         from: './assets/images',
